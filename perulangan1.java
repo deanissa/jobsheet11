@@ -10,7 +10,7 @@ public class perulangan1 {
         System.out.print ("Masukkan Nilai N :");
         int N = sc.nextInt();
 
-        for (int i = 1; i <= N; i++) {
+        for (int i = 1; i <= N; i--) {
             System.out.print ("*");
         }
     }
